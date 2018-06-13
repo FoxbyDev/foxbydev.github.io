@@ -1,5 +1,61 @@
 
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #EEEEEE;
+}
 
 p {
 	font-family: "Roboto", sans-serif;
+}
+
+h1 {
+	font-family: "Roboto", sans-serif;
+	font-size: 36px;
+}
+
+div.holder {
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 40px;
+}
+
+ul.navbar {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #23272A;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+li.navbar {
+	float: left;
+	font-family: "Roboto", sans-serif;
+}
+
+div.navbar {
+	height: 47px;
+	width: 20%;
+	float: left;
+	background-color: #23272A;
+}
+
+li.navbar a {
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+li.navbar a:hover {
+	background-color: #3d4347;
+}
+
+li.navbar a:active {
+	background-color: #5a6166;
 }
